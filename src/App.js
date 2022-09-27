@@ -17,9 +17,7 @@ function App() {
   }
   
   const deleteTask = (taskName) => {
-    const newToDoList = toDoList.filter((task) => {
-      return task !== taskName
-    })
+    const newToDoList = toDoList.filter((task) => task !== taskName)
 
     setToDoList(newToDoList)
   }
