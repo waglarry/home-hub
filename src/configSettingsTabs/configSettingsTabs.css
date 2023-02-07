@@ -1,0 +1,39 @@
+.Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftColumn{
+    width: 46%;
+}
+.rightColumn{
+    width: 46%;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.heading{
+    padding-top: 1rem;
+}
+.inputLabel{
+    margin-left: .6rem;
+}
+.generalTextRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.paymentAmount{
+    color: orangered;
+}
+.paymentDay{
+    color: gray;
+}
+
+.adminRolesTable{
+    text-align: center;
+    width: 100%;
+}
